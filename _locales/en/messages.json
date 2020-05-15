@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Save to Freshreader",
+    "description": "The title of the application, displayed in the add-on store."
+  },
+  "appDesc": {
+    "message" : "Browser extension to save pages to your Freshreader list.",
+    "description":"The description of the application, displayed in the add-on store."
+  }
+}
