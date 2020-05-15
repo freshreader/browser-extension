@@ -1,3 +1,5 @@
+![logo](https://user-images.githubusercontent.com/8457808/77265724-d5123300-6c73-11ea-96fd-e3a56177ada7.png)
+
 # Save to Freshreader
 
 This browser extension simply lets you save pages to your Freshreader list by clicking the extension icon.
