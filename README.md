@@ -4,9 +4,9 @@
 
 This browser extension simply lets you save pages to your Freshreader list by clicking the extension icon.
 
-## Download the application
+## Download the extension
 
-Download the latest APK for sideloading: [`freshreader-v1.0.0.apk`](https://github.com/freshreader/browser-extension/releases/download/v1.0.0/freshreader-v1.0.0.apk)
+Coming soon!
 
 ## Contributing
 All pull requests are welcome! Simply fork this repo to your account, do your changes in a new branch, then create a pull request against this repo. Thanks! :)
