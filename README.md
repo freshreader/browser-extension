@@ -7,7 +7,7 @@ This browser extension simply lets you save pages to your Freshreader list by cl
 ## Download the extension
 
 - [Mozilla Add-ons](https://addons.mozilla.org/fr/firefox/addon/save-to-freshreader/)
-- Chrome Web Store: awaiting approval
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/save-to-freshreader/bdmbfhckhooihghmnhaomilcamhmpoec)
 
 ## Contributing
 All pull requests are welcome! Simply fork this repo to your account, do your changes in a new branch, then create a pull request against this repo. Thanks! :)
