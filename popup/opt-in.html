@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="opt-in.css" />
+  <script src="opt-in.js"></script>
+</head>
+
+<body>
+  <div id="opt-in-prompt">
+    <p>👋 Hello! One last thing before you can start saving URLs to your Freshreader list.</p>
+    <p>
+      For privacy purposes, the good people at Mozilla and Google require that
+      I get your consent to collect the URL of your active tab whenever you
+      click on the "Save to Freshreader" icon. This behavior is required so that
+      the extension can send the URL to the Freshreader server and actually save
+      the URL to your Freshreader list.
+    </p>
+
+    <p>
+      You must consent to this behavior to use the add-on. If you do not consent,
+      uninstall this add-on and save URLs manually from your Freshreader list.
+    <p>
+      For more details:
+      <a href="https://freshreader.app/privacy" target="_blank">
+        A few words on privacy
+      </a>
+    </p>
+    <div id="button-container">
+      <button id="button-enable">I consent</button>
+    </div>
+  </div>
+  <div id="after-opt-in" hidden="true">
+    <p>Consent recorded. You may now close this page and start saving pages
+      to your list by clicking the Freshreader add-on icon. Enjoy!</p>
+  </div>
+</body>
+
+</html>
