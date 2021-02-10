@@ -1,5 +1,7 @@
 "use strict";
 
+const browser = (window.browser) ? window.browser : window.chrome;
+
 window.addEventListener("load", function () {
   // set up the appearance of the popup depending on the outcome of the opt-in
   browser.storage.local.get("optIn", function (result) {

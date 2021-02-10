@@ -1,8 +1,10 @@
-chrome.browserAction.onClicked.addListener(function (tab) {
+var browser = (window.browser) ? window.browser : window.chrome;
+
+browser.browserAction.onClicked.addListener(function (tab) {
   browser.storage.local.get("optIn", function (result) {
     if (result.optIn) {
       save_url = 'https://freshreader.app/save?url=' + encodeURIComponent(tab.url)
-      chrome.tabs.update(tab.id, { url: save_url });
+      browser.tabs.update(tab.id, { url: save_url });
     } else {
       browser.tabs.create({ url: "popup/opt-in.html" });
     }
